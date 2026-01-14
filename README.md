@@ -64,7 +64,7 @@
 
 **Opción A: Web Flasher (Recomendado)**
 
-1. Abre: [Web Flasher](https://kamiikasee05.github.io/index.html)
+1. Abre: [Web Flasher](https://kamiikasee05.github.io/Macropadx16/)
 2. Conecta tu ESP32-C3/S3 por USB
 3. Haz clic en "Connect" y selecciona tu dispositivo
 4. Haz clic en "Install" y espera
