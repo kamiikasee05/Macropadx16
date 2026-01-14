@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Título -->
+  <text x="400" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">
+    ESP32-C3 Macropad - Diagrama de Conexión 16 Botones
+  </text>
+  
+  <!-- ESP32-C3 Board -->
+  <rect x="300" y="70" width="200" height="300" fill="#2c3e50" stroke="#1a252f" stroke-width="3" rx="10"/>
+  <text x="400" y="95" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    ESP32-C3
+  </text>
+  
+  <!-- Pines del ESP32 (simplificado) -->
+  <g font-size="11" fill="white">
+    <!-- Lado izquierdo -->
+    <text x="285" y="130" text-anchor="end">GPIO 1-4</text>
+    <circle cx="295" cy="127" r="3" fill="#3498db"/>
+    
+    <text x="285" y="160" text-anchor="end">GPIO 5-8</text>
+    <circle cx="295" cy="157" r="3" fill="#3498db"/>
+    
+    <text x="285" y="190" text-anchor="end">GPIO 9-10</text>
+    <circle cx="295" cy="187" r="3" fill="#3498db"/>
+    
+    <text x="285" y="220" text-anchor="end">GND</text>
+    <circle cx="295" cy="217" r="3" fill="#333"/>
+    
+    <!-- Lado derecho -->
+    <text x="515" y="130" text-anchor="start">GPIO 20-21</text>
+    <circle cx="505" cy="127" r="3" fill="#3498db"/>
+    
+    <text x="515" y="160" text-anchor="start">GPIO 18-19</text>
+    <circle cx="505" cy="157" r="3" fill="#3498db"/>
+    
+    <text x="515" y="190" text-anchor="start">GPIO 0,12</text>
+    <circle cx="505" cy="187" r="3" fill="#3498db"/>
+    
+    <text x="515" y="220" text-anchor="start">5V/3.3V</text>
+    <circle cx="505" cy="217" r="3" fill="#e74c3c"/>
+  </g>
+  
+  <!-- Grid de Botones simplificado -->
+  <text x="400" y="420" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Matriz de Botones (4x4)
+  </text>
+  
+  <!-- Representación simplificada -->
+  <rect x="200" y="450" width="400" height="120" fill="#f0f0f0" stroke="#333" stroke-width="2" rx="10"/>
+  
+  <text x="400" y="480" font-size="14" text-anchor="middle" fill="#333">
+    16 Botones conectados individualmente
+  </text>
+  
+  <text x="400" y="505" font-size="12" text-anchor="middle" fill="#666">
+    Cada botón: Un pin al GPIO correspondiente
+  </text>
+  
+  <text x="400" y="525" font-size="12" text-anchor="middle" fill="#666">
+    Otro pin a GND común
+  </text>
+  
+  <text x="400" y="545" font-size="12" text-anchor="middle" fill="#666">
+    Pull-up interno activado por software
+  </text>
+  
+  <!-- Notas -->
+  <rect x="50" y="450" width="120" height="80" fill="#fff" stroke="#333" stroke-width="2" rx="5"/>
+  <text x="110" y="470" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">Notas</text>
+  <circle cx="60" cy="485" r="3" fill="#3498db"/>
+  <text x="70" y="490" font-size="10" fill="#333">GPIO directo</text>
+  <circle cx="60" cy="505" r="3" fill="#333"/>
+  <text x="70" y="510" font-size="10" fill="#333">GND común</text>
+  <text x="110" y="525" font-size="9" text-anchor="middle" fill="#666">Sin diodos</text>
+</svg>
