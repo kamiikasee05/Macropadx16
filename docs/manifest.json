@@ -9,7 +9,7 @@
       "improv": false,
       "parts": [
         {
-          "path": "../firmware/binaries/cheap_deck_c3_ble_16btn.bin",
+          "path": "firmware/binaries/cheap_deck_c3_ble_16btn.bin",
           "offset": 0
         }
       ]
@@ -19,7 +19,7 @@
       "improv": false,
       "parts": [
         {
-          "path": "../firmware/binaries/cheap_deck_s3_ble_16btn.bin",
+          "path": "firmware/binaries/cheap_deck_s3_ble_16btn.bin",
           "offset": 0
         }
       ]
